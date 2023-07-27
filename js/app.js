@@ -45,16 +45,6 @@ function gerarSinal() {
     avisoDep.parentNode.removeChild(avisoDep);
   }
 
-  // Adiciona o elemento <h3> com texto
-  var h3Element = document.createElement('h3');
-  h3Element.textContent = 'Minas: 3';
-  // Você pode adicionar estilos ao <h3> se necessário
-  // h3Element.style.fontSize = '24px';
-
-  // Adiciona o elemento <h3> na página
-  var container = document.querySelector('.container'); // Altere '.container' pelo seletor do elemento onde deseja adicionar o <h3>
-  container.appendChild(h3Element);
-
   var botao = document.getElementById("botao-sinal");
   botao.innerHTML = "Aguarde 30 segundos...";
   botao.style.backgroundColor = "#c3c3c3";
