@@ -177,7 +177,7 @@ header {
 }
 .watch-btn .bx {
     font-size: 21px;
-    : var(--main-color);
+    background: var(--main-color);
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -186,7 +186,7 @@ header {
     justify-content: center;
 }
 .watch-btn .bx:hover {
-    : var(--hover-color);
+    background: var(--hover-color);
 }
 .watch-btn span {
     font-size: 1rem;
@@ -197,7 +197,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    : var(--container-color);
+    background: var(--container-color);
     padding: 8px 14px;
     border: 1px solid hsl(200 100% 99% / 5%);
     margin-bottom: 2rem;
@@ -228,7 +228,7 @@ header {
     flex-direction: column;
     justify-content: flex-end;
     padding: 14px;
-    : linear-gradient(
+    background: linear-gradient(
         8deg, 
         hsl(240 17% 14% / 74%) 14%, 
         hsl(240 17% 14% / 14%) 44%
@@ -281,13 +281,13 @@ header {
     margin-top: 2.5rem;
 }
 .next-btn {
-    : var(--main-color);
+    background: var(--main-color);
     padding: 12px 20px;
     color: var(--text-color);
     font-weight: 500;
 }
 .next-btn:hover {
-    : var(--hover-color);
+    background: var(--hover-color);
     transition: 0.3 all linear;
 }
 /* Copyright */
@@ -319,7 +319,7 @@ header {
     flex-direction: column;
     justify-content: flex-end;
     padding: 40px;
-    : linear-gradient(8deg,
+    background: linear-gradient(8deg,
         hsl(240 17% 14% / 74%) 14%,
         hsl(240 17% 14% / 14%) 44%);
 }
@@ -342,7 +342,7 @@ header {
     margin: 1rem 0;
 }
 .tags span {
-    : var(--container-color);
+    background: var(--container-color);
     padding: 0 4px;
 }
 .play-movie {
@@ -875,7 +875,7 @@ iframe {
     margin: auto;
   
   padding: 12px 28px;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 600;
   text-align: center;
   text-transform: uppercase;
